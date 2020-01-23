@@ -1,3 +1,5 @@
+/* globals SpreadsheetApp : true */
+
 function withSheet(sheet) {
   if (!sheet) {
     return SpreadsheetApp.getActiveSheet();
@@ -8,3 +10,4 @@ function withSheet(sheet) {
   return sheet;
 }
 
+export default withSheet;
