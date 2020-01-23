@@ -2,14 +2,14 @@
   "name": "gs-ui",
   "version": "1.0.0",
   "description": "UI library for Google Apps Scripts",
-  "main": "dist/ui.js",
+  "main": "uiToast.js",
   "repository": "https://github.com/Glajik/gs-ui.git",
   "author": "Viacheslav Glazhevskyi <glajik@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
     "build": "./build.sh",
-    "eslint": "eslint src __tests__",
+    "lint": "eslint .",
     "test": "jest"
   },
   "devDependencies": {
