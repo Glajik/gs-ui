@@ -17,9 +17,9 @@ If you don't have it, create it in the same folder where is `.clasp.json` file.
 Example of `.claspignore` file
 
 ```TEXT
-# Ignore all submodule's folders, except 'dist'
+# Ignore all submodule's files, except *.js in root folder
 gs-ui/**
-!**/*.js
+!gs-ui/*.js
 ```
 
 ### 3. Use it
